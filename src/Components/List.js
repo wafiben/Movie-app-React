@@ -7,7 +7,6 @@ function List({ films, caracter, rate }) {
       className="container"
       style={{
         display: "flex",
-        width: "1000px",
         flexWrap: "wrap",
         justifyContent: "space-around",
       }}

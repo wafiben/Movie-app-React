@@ -3,7 +3,7 @@ import List from "./Components/List";
 import { movies } from "./data";
 import { useState } from "react";
 
-function App() {
+function App()  {
   const [films, setFilms] = useState(movies);
   const [caracter, setcaracter] = useState("");
   const [rate, setRate] = useState(0);
